@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: white;
+}
+main{
+    background-color: blue;
+    height: auto;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;
+    display: grid;grid-template-areas: "header header"
+                         "nav nav"
+                         "img article"
+                         "footer";
+    font-family: Arial, Verdana, sans-serif;
+      
+    
+}
+
+
+
+
+
+
+
+header{
+    background-color: blue;
+
+
+}
+header.h1{
+    font-weight: bold;
+    font-family: Garamond;
+    letter-spacing: 2pt;
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    padding: 0;
+    margin: 0; 
+}   
+nav.li{
+    font-weight: bold;
+    
+ 
+}
+
+
